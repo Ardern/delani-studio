@@ -29,7 +29,15 @@
      align-items: center;
  }
 
-
+ .services-header {
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+}
+.services-content {
+    text-align: center;
+    color: white;
+}
 
 :root {
   --bs-blue: #0d6efd;
