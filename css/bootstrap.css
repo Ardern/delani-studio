@@ -46,6 +46,17 @@
     align-items: center;
     margin-left: 25px;
 }
+.port-header {
+    text-align: center;
+}
+.row-cols-4 {
+    width: 100%;
+}
+.row-cols-4 img {
+   width: 200px;
+    height: auto;
+    padding-top: 15px;
+}
 
 :root {
   --bs-blue: #0d6efd;
