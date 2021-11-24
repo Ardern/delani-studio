@@ -50,12 +50,15 @@
     text-align: center;
 }
 .row-cols-4 {
-    width: 100%;
+    width: 85%;
+    
 }
 .row-cols-4 img {
    width: 200px;
     height: auto;
     padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 :root {
