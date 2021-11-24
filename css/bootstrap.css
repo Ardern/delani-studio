@@ -74,6 +74,12 @@
     display: flex;
     flex-direction: row;
 }
+.footer-header {
+    text-align: center;
+}
+.footer-header {
+    text-align: center;
+}
 
 :root {
   --bs-blue: #0d6efd;
