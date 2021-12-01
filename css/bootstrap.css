@@ -21,7 +21,9 @@
      color: white;
  }
  .mouse {
-    padding-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 50px;
     text-align: center;
 }
  .about-header {
