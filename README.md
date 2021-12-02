@@ -19,10 +19,12 @@ Linking HTML and css files
 
 
 ### Requirements for Deployment
-​
 * A computer device
-​
 * Internet connection
+* A web browser
+
+### Known Bugs
+The application does not have any known. However, the identification or emergence of any bug will be addressed in our continuous iteration.
 
 ## Authors Info
 Name: Sam Nyang'u Momanyi Ardern
