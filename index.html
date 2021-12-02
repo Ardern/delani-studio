@@ -6,120 +6,190 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani Studio</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-    <title>Example Page Title</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
     <div class="container">
-        <section class="main" style="background-image: url('./assets/backgrounds/h_img.jpg'); height: 500px;">
+        <section class="main">
             <div class="logo"><img src="./assets/logo/logo.png" alt=""></div>
             <div class="main-header">
                 <h1>WELCOME <br /> TO DELANI STUDIO</h1>
-            </div>
-            <div class="main-content">
                 <p>AMAZING PAOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
             </div>
             <div class="mouse"><img src="./assets/mouse_click.png" alt="Mouse Click image"></div>
         </section>
+        <!-- end rollerUp  -->
         <section class="about">
-            <h1 class="about-header">ABOUT US</h1>
-            <p class="about-content">When you work with us, you are part of a team of committed collaborators. All
-                aspects of out software development process are integrated, interactive <br />and agile<br /> Our
-                approach unifies design, development and product management to create exceptional products <br /> We
-                start each project by understanding your business goals, the user's needs and the product requirements.
+            <h1 class="all-title ">ABOUT US</h1>
+            <p class="about-content">When you work with us, you are part of a team of committed collaborators. All aspects of out software development process are integrated, interactive <br />and agile<br /> Our approach unifies design, development and product management to
+                create exceptional products <br /> We start each project by understanding your business goals, the user's needs and the product requirements.
                 <br /> Then we help translate them into effective and elegant solutions.</p>
-            <section>
-                <section class="services"
-                    style="background-image: url('./assets/backgrounds/s_image.jpg'); height: 400px;">
-                    <div class="services-header">
-                        <h1>SERVICES</h1>
+        </section>
+        <section class="services">
+            <h1 class="all-title ">SERVICES</h1>
+            <div class="services-content">
+                <p>Before we sign a contract or write a line of code, our team will spend the necessary time needed to understand your product vision. <br /> The outcome of this scoping session in proposal or high-level statement of work <br /> based on
+                    your requirements, we can provide a complete offering or just the pieces you need.</p>
+            </div>
+        </section>
+        <section class="do">
+            <div class="row">
+                <h1 class="all-title ">WHAT WE DO</h1>
+                <div class="col-md-4 s-img" id="sImg">
+                    <div class="dev" id="design">
+                        <img src="./assets/service_icons/design_icon.png" alt="">
+                        <h5>Design</h5>
                     </div>
-                    <div class="services-content">
-                        <p>Before we sign a contract or write a line of code, our team will spend the necessary time
-                            needed to understand your product vision. <br /> The outcome of this scoping session in
-                            proposal or high-level statement of work <br /> based on your requirements, we can provide a
-                            complete offering or just the pieces you need.</p>
+                    <div class="dev-info" id="dev-info">
+                        <h5>Design</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis eligendi, maiores autem soluta obcaecati velit.</p>
                     </div>
-                </section>
-                <section class="do">
-                    <div class="row">
-                        <h1 class="do-header">WHAT WE DO</h1>
-                        <div class="col">
-                            <img src="./assets/service_icons/design_icon.png" alt="">
+                </div>
+                <div class="col-md-4 s-img" id="sImg-dev">
+                    <div class="dev" id="dev">
+                        <img src="./assets/service_icons/dev_icon.png" alt="">
+                        <h5>Development</h5>
+                    </div>
+                    <div class="dev-info" id="des-info">
+                        <h5>Development</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis eligendi, maiores autem soluta obcaecati velit.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 s-img" id="sImg-pd">
+                    <div class="dev" id="prod-d">
+                        <img src="./assets/service_icons/product_icon.png" alt="">
+                        <h5>Produc Management</h5>
+                    </div>
+                    <div class="dev-info" id="prod-info">
+                        <h5>Product Management</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis eligendi, maiores autem soluta obcaecati velit.</p>
+                    </div>
+                </div>
+        </section>
+        <!-- start potfolio  -->
+        <div class="folio_1">
+            <h1 class="all-title">PORTFOLIO</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="image">
+                            <img class="img" src="./assets/portfolio/work4.jpg" alt="">
+                            <div class="img-Lay">
+                                <div class="img_title"> Dark</div>
+                                <p class="img-desc">item One text</p>
+                            </div>
                         </div>
-                        <div class="col">
-                            <img src="./assets/service_icons/dev_icon.png" alt="">
+                    </div>
+                    <div class="col-md-3">
+                        <div class="image">
+                            <img class="img" src="./assets/portfolio/work3.jpg" alt="">
+                            <div class="img-Lay">
+                                <div class="img_title"> Ontaro</div>
+                                <p class="img-desc">Ontario text data</p>
+                            </div>
                         </div>
-                        <div class="col">
-                            <img src="./assets/service_icons/product_icon.png" alt="">
+                    </div>
+                    <div class="col-md-3">
+                        <div class="image">
+                            <img class="img" src="./assets/portfolio/work2.jpg" alt="">
+                            <div class="img-Lay">
+                                <div class="img_title"> Skies</div>
+                                <p class="img_description">Orange text skies</p>
+                            </div>
                         </div>
-                </section>
-                <section class="portfolio">
-                    <h1 class="port-header">PORTFOLIO</h1>
-                    <div class="row row-cols-4">
-                        <div class="port-col"><img src="./assets/portfolio/work4.jpg" alt=""></div>
-                        <div class="port-col"><img src="./assets/portfolio/work3.jpg" alt=""></div>
-                        <div class="port-col"><img src="./assets/portfolio/work2.jpg" alt=""></div>
-                        <div class="port-col"><img src="./assets/portfolio/work1.jpg" alt=""></div>
                     </div>
-                    <div class="row row-cols-4">
-                        <div class="port-col"><img src="./assets/portfolio/work5.jpg" alt=""></div>
-                        <div class="port-col"><img src="./assets/portfolio/work6.jpg" alt=""></div>
-                        <div class="port-col"><img src="./assets/portfolio/work7.jpg" alt=""></div>
-                        <div class="port-col"><img src="./assets/portfolio/work8.jpg" alt=""></div>
+                    <div class="col-md-3">
+                        <div class="image">
+                            <img class="img" src="./assets/portfolio/work1.jpg" alt="">
+                            <div class="img-Lay">
+                                <div class="img_title"> Design</div>
+                                <p class="img_description">Awesome designs</p>
+                            </div>
+                        </div>
                     </div>
-
-                </section>
-                <section class="contact"
-                    style="background-image: url('./assets/backgrounds/c_image.jpg'); height: 400px;">
-                    <div class="services-header">
-                        <h1>CONTACT US</h1>
+                </div>
+            </div>
+        </div>
+        <!-- end first_row  -->
+        <div class="folio_2">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="image">
+                            <img class="img" src="./assets/portfolio/work5.jpg" alt="">
+                            <div class="img-Lay">
+                                <div class="img_title"> Web app</div>
+                                <p class="img-desc">Check our samples</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="contact-form">
-                        
+                    <div class="col-md-3">
+                        <div class="image">
+                            <img class="img" src="./assets/portfolio/work6.jpg" alt="">
+                            <div class="img-Lay">
+                                <div class="img_title">Datasets</div>
+                                <p class="img-desc">Awesome data setup </p>
+                            </div>
+                        </div>
                     </div>
-                </section>
-                <section class="socials">
-                    <div class="social-row">
-                        <div class="col">
-                            <div class="p-3 border bg-light"><img src="./assets/social_icons/twitter.png" alt=""></div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light"><img src="./assets/social_icons/dribble.png" alt=""></div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light"><img src="./assets/social_icons/facebook.png" alt=""></div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light"><img src="./assets/social_icons/g_plus.png" alt=""></div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light"><img src="./assets/social_icons/skype.png" alt=""></div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light"><img src="./assets/social_icons/stumble_upon.png" alt=""></div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light"><img src="./assets/social_icons/behance.png" alt=""></div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light"><img src="./assets/social_icons/pinterest.png" alt=""></div>
-                          </div>
-                          <div class="col">
-                            <div class="p-3 border bg-light"><img src="./assets/social_icons/flickr.png" alt=""></div>
-                          </div>    
+                    <div class="col-md-3">
+                        <div class="image">
+                            <img class="img" src="./assets/portfolio/work7.jpg" alt="">
+                            <div class="img-Lay">
+                                <div class="img_title"> logo</div>
+                                <p class="img-desc">Professional designs</p>
+                            </div>
+                        </div>
                     </div>
-                </section>
-                <section class="footer">
-                    <h1 class="footer-header">DELANI STUDIO</h1>
-                    <p class="footer-year">2019</p>
-                </section>
-
-
-            </section>
+                    <div class="col-md-3">
+                        <div class="image">
+                            <img class="img" src="./assets/portfolio/work8.jpg" alt="">
+                            <div class="img-Lay">
+                                <div class="img_title"> Sticker</div>
+                                <p class="img-desc">3D modern styles</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact  -->
+        <section class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" id="name" placeholder="Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" id="email" placeholder="Email">
+                    </div>
+                </div>
+                <textarea id="text" placeholder="Your message here .."></textarea> <br>
+                <button class="submit" id="getData">Submit</button>
+            </div>
+        </section>
+        <footer>
+            <div class="social ">
+                <img src="./assets/social_icons/twitter.png " alt=" ">
+                <img src="./assets/social_icons/dribble.png " alt=" ">
+                <img src="./assets/social_icons/facebook.png " alt=" ">
+                <img src="./assets/social_icons/g_plus.png " alt=" ">
+                <img src="./assets/social_icons/skype.png " alt=" ">
+                <img src="./assets/social_icons/stumble_upon.png " alt=" ">
+                <img src="./assets/social_icons/behance.png " alt=" ">
+                <img src="./assets/social_icons/pinterest.png " alt=" ">
+                <img src="./assets/social_icons/flickr.png " alt=" ">
+            </div>
+            <div class=rights ">
+                <p>delani studio <br>2019</p>
+            </div>
+        </footer>
+        </section>
     </div>
-
+<script src="./index.js "></script>
 </body>
 
 </html>
